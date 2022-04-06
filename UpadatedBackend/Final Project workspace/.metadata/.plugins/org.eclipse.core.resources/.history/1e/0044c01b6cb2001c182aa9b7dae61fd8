@@ -1,5 +1,0 @@
-package com.infrabookingapp.rest;
-
-public class BookingController {
-
-}
