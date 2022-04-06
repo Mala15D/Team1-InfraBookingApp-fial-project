@@ -1,0 +1,15 @@
+package com.infrabookingapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = {"com.infrabookingapp"})
+public class InfraBookingAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(InfraBookingAppApplication.class, args);
+	}
+
+}

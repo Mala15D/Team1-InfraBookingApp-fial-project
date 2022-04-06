@@ -1,0 +1,13 @@
+package com.infrabookingapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class InfraBookingAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(InfraBookingAppApplication.class, args);
+	}
+
+}

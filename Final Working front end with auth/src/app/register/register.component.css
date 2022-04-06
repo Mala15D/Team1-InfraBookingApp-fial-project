@@ -1,0 +1,22 @@
+.main{
+    padding: 100px;
+    background-color: white;
+    align-items: center;
+    padding-left: 400px;
+}
+td{
+    padding: 10px
+}
+body{
+    background-color: white;
+}
+table{
+    align-items:center ;
+    border: 1px;
+    background-color: cornflowerblue;
+    padding: 2cm;
+    border-radius: 20px;   
+}
+form{
+    width: 350px;
+}

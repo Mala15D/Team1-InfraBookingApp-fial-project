@@ -1,0 +1,5 @@
+steps:
+1. create role record manually.
+2. then add employee using postman
+3. create room record manually
+4. add booking using postman

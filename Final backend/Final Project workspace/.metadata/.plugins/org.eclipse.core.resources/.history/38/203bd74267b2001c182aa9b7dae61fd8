@@ -1,0 +1,12 @@
+package com.infrabookingapp.entity;
+
+import java.util.List;
+
+public class Booking {
+
+	private List<Room> bookedRooms;
+	private Employee stakeholder;
+	private String purpose;
+	private String dateOfBooking;
+	private int participants;
+}
