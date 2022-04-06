@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Check out') {
+            steps {
+                echo 'Cheking out pipeline'
+            }
+        }
+         stage('Package') {
+            steps {
+                bat 'mvn clean package'
+            }
+        }
+         stage('Publishing') {
+            steps {
+                bat 'java -jar InfraBookingAppEurekaServer'
+
+
+            }
+        }
+    }
+}
+

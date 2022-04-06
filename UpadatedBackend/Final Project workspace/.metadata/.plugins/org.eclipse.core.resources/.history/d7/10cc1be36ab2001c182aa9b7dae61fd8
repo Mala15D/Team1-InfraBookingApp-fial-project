@@ -1,0 +1,20 @@
+package com.infrabookingapp.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.infrabookingapp.dao.BookingDAO;
+import com.infrabookingapp.entity.Booking;
+
+@Service
+public class BookingService {
+
+	@Autowired
+	private BookingDAO bookingDAO;
+
+	public List<Booking> getAllBookings() {
+		return this.bookingDAO.findAll();
+	}
+}

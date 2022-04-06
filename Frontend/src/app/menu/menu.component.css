@@ -1,0 +1,25 @@
+td{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.main{
+    padding: 20px;
+    width: 100%;
+}
+a:hover{
+    color: black;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.container-fluid{
+    max-width: 100%;
+    background-color:darkcyan;
+    max-height: 100%;
+}

@@ -1,0 +1,8 @@
+package com.infrabookingapp.security.config;
+
+public class Snippet {
+	public static void main(String[] args) {
+		zensardb.cnajizmbbtmf.ap-south-1.rds.amazonaws.com
+	}
+}
+

@@ -1,0 +1,38 @@
+.main{
+    background-color:rgba(100, 148, 237, 0.273);
+    max-width: 10%;
+    height: 400px;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: groove gray thick;
+    margin: 30px 0 20px 400px;
+}
+table{
+    border:  2px groove black;
+    border-radius: 10px;
+}
+tr,td,th{
+    padding: 5px;
+    border: 2px solid black
+}
+.container-fluid{
+   max-width: 100%;
+   max-height: 100%;
+   
+}
+.get{
+    margin-top: 20px;
+}
+.col-6{
+    width:50%;
+}
+.row{
+    width: 100%;
+}
+.rowleft{
+   margin-left: 50%;
+   max-width: 100%;
+    max-height: 100%;
+    margin: 10px;
+}

@@ -1,0 +1,5 @@
+package com.infrabookingapp.service.feign.client;
+
+public interface BookingFeignClient {
+
+}

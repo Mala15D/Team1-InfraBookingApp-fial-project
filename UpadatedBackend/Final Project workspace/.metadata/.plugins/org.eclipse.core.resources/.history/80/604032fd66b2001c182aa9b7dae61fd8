@@ -1,0 +1,5 @@
+package com.infrabookingapp.entity;
+
+public class Room {
+
+}

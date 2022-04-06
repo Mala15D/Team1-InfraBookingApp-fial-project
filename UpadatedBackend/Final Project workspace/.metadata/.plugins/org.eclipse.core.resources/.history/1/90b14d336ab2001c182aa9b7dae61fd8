@@ -1,0 +1,9 @@
+package com.infrabookingapp.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.infrabookingapp.entity.Employee;
+
+public interface EmployeeDAO extends JpaRepository<Employee, Integer> {
+
+}

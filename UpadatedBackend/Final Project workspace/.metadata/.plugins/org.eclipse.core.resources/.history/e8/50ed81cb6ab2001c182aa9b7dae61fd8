@@ -1,0 +1,5 @@
+package com.infrabookingapp.service;
+
+public class BookingService {
+
+}

@@ -1,0 +1,5 @@
+package com.infrabookingapp.dao;
+
+public interface EmployeeDAO {
+
+}

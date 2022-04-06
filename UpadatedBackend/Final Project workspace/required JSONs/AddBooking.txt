@@ -1,0 +1,10 @@
+{
+	"bookedRooms":[{"code":"ABC","capacity":10}],
+	"stakeholder":{"id":3,
+	"userName":"dnyanesh@gmail.com",
+	"password":"abcd",
+	"roles":[{"id":1,"authority":"USER"}]},
+	"purpose":"meeting",
+	"dateOfBooking":"28-MAR-2022",
+	"participants":10
+}
